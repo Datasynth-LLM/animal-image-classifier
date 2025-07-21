@@ -1,0 +1,27 @@
+name: ml-project
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - tensorflow  # optional
+  - pip
+  - pip:
+    - albumentations
+    - tqdm
+    - hydra-core
+    - pytest
+    - jupyterlab
+    - wandb  # or mlflow
+    - pre-commit
+    - black
+    - isort
+    - flake8

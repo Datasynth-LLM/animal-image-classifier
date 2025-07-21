@@ -1,0 +1,38 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+
+# Data folders
+data/
+*.csv
+
+# Model weights
+models/
+*.pth
+
+# Reports (can be regenerated)
+reports/
+*.txt
+*.png
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# VSCode and system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and backups
+*.log
+*.bak
+
+# Environment & config
+.env
+*.env
